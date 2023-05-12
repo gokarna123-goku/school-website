@@ -145,7 +145,7 @@ li{
 /* Navbar & Hero Background Image Section */
 .bg_image_section{
     width: 100%;
-    background: var(--linear-background), url("./img/hospital-bg.jpg") no-repeat;
+    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2017/08/01/01/28/people-2562626_960_720.jpg") no-repeat;
     background-size: cover;
     background-position: center right;
     height: 100vh;
