@@ -826,6 +826,18 @@ li{
     .gallery_section {
         padding: 100px 30px;
     }
+    .contact_section {
+        padding: 100px 30px;
+    }
+    .contact_box {
+        flex-wrap: wrap;
+    }
+    .contact_info {
+        width: 100%;
+    }
+    .contact_form {
+        width: 100%;
+    }
     .footer_section {
         padding: 40px 30px;
     }
@@ -836,16 +848,22 @@ li{
 
 /* max-width 425 */
 @media (max-width: 425px ){
+    .nav_section {
+        padding: 10px 30px;
+    }
     .text_section {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         line-height: 4rem;
     }
     .text_section span {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
     .btn_group {
         flex-wrap: wrap;
         gap: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .about_section {
         padding: 100px 30px;
