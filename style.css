@@ -537,6 +537,341 @@ li{
 }
 
 
+/* Contact Us Section Styling */
+.contact_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 100px;
+}
+.contact_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.contact_info{
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+.contact_data{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    padding: 30px;
+    gap: 0.7rem;
+}
+.contact_tag{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 1.2rem;
+}
+.contact_tag .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: var(--fourth);
+    border: 2px solid var(--tertiary);
+    font-size: 1.3rem;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_tag .title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--fourth);
+    letter-spacing: 0.1rem;
+}
+.contact_data .detail{
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+.contact_form{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact_form form{
+    width: 100%;
+    height: auto;
+}
+.contact_form .input_group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.submit_btn{
+    width: 280px;
+    height: 58px;
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--tertiary);
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    border-radius: 4px;
+    transition: 0.5s ease-out;
+}
+.submit_btn:hover{
+    background: transparent;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
+
+/* Footer Section Styling */
+.footer_section{
+    width: 100%;
+    height: auto;
+    padding: 40px 100px;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about_company{
+    width: 50%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+.about_company .logo_link{
+    display: inline-block;
+    margin-bottom: 0.83rem;
+}
+.company_desc{
+    font-size: 0.978rem;
+    font-weight: 300;
+    color: var(--fourth);
+    line-height: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+.social_link{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.7rem;
+    margin-bottom: 3.0rem;
+}
+.social_link .link{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background: var(--fourth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--fourth);
+    transition: 0.5s ease-out;
+}
+.social_link .link:hover{
+    background: transparent;
+    border: 1px solid var(--secondary);
+}
+.social_link .link i{
+    font-size: 1.2rem;
+    color: var(--primary);
+    transition: 0.5s ease-out;
+}
+.social_link .link:hover i{
+    color: var(--secondary);
+}
+.footer_section hr{
+    margin: 1.2rem 0;
+}
+.copyright{
+    font-size: 0.89rem;
+    font-weight: 400;
+    color: #4b4b4b;
+}
+.developer{
+    font-size: 0.89rem;
+    font-weight: 600;
+    color: #5d5d5d;
+}
+
+
+/* Media Query Section */
+/* Only Min-width 975 and Max-width 1024 */
+
+@media (max-width: 1024px ) {
+    .service_section {
+        padding: 100px 30px;
+    }
+    .image_section {
+        width: 56%;
+    }
+    .content_section {
+        width: 53%;
+        padding: 30px 30px 30px 50px;
+    }
+    .about_title {
+        font-size: 1.7rem;
+    }
+    .blog_box {
+        width: 358px;
+    }
+}
+
+/*  Max-width 768 */
+@media (max-width: 768px ){
+    .nav_section ul{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background: rgba(31, 31, 31, 0.99);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 75px;
+        right: -100%;
+        text-align: center;
+        transition: all 0.68s ease-out;
+        z-index: 9999;
+    }
+    .nav_section li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #toggleIcon{
+        display: block;
+    }
+    .nav_section a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .nav_section ul.showNavbar{
+        right: 0;
+    }
+    .text_section {
+        font-size: 3.7rem;
+        line-height: 5rem;
+    }
+    .text_section span {
+        font-size: 3.7rem;
+    }
+    .about_section {
+        padding: 100px 30px;
+    }
+    .image_section {
+        width: 90%;
+    }
+    .content_section {
+        width: 90%;
+        right: 30px;
+    }
+    .doctors_section {
+        padding: 100px 30px;
+    }
+    .doctor_card{
+        width: 100%;
+    }
+    .appoinment_section {
+        padding: 100px 30px;
+        flex-wrap: wrap;
+    }
+    .appoinment_data_section {
+        width: 100%;
+        height: 85vh;
+    }
+    .appoinment_form_section {
+        width: 100%;
+        height: 95vh;
+    }
+    .department_section {
+        padding: 100px 30px;
+    }
+    .blog_section {
+        padding: 100px 30px;
+    }
+    .contact_section {
+        padding: 100px 30px;
+    }
+    .contact_box {
+        flex-wrap: wrap;
+    }
+    .contact_info {
+        width: 100%;
+    }
+    .contact_form {
+        width: 100%;
+    }
+    .footer_section {
+        padding: 40px 30px;
+    }
+    .about_company {
+        width: 100%;
+    }
+}
+
+/* max-width 425 */
+@media (max-width: 425px ){
+    .text_section {
+        font-size: 2.7rem;
+        line-height: 4rem;
+    }
+    .text_section span {
+        font-size: 2.7rem;
+    }
+    .btn_group {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .about_section {
+        padding: 100px 30px;
+    }
+    .image_section {
+        width: 100%;
+    }
+    .content_section {
+        width: 90%;
+        right: 20px;
+    }
+    .appoinment_form_section {
+        height: auto;
+        padding: 20px;
+    }
+    .input_group {
+        flex-wrap: wrap;
+    }
+    .dropdown_section {
+        width: 100%;
+    }
+    .input_group input {
+        width: 100%;
+    }
+    .book_btn {
+        width: 280px;
+    }
+}
+
+
 
 
 /* End of CSS */
