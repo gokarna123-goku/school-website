@@ -59,14 +59,14 @@ li{
 .btn:focus,
 .btn:active{
     outline: none;
-    border-radius: 20px;
+    border-radius: 4px;
 }
 .bg_btn{
     width: 200px;
     background: var(--secondary);
     border: 2px solid var(--secondary);
     color: var(--tertiary);
-    border-radius: 20px;
+    border-radius: 4px;
     transition: 0.68s ease-out;
 }
 .bg_btn:hover{
@@ -79,7 +79,7 @@ li{
     background: transparent;
     border: 2px solid var(--secondary);
     color: var(--secondary);
-    border-radius: 20px;
+    border-radius: 4px;
     transition: 0.68s ease-out;
 }
 .border_btn:hover{
@@ -453,6 +453,7 @@ li{
     align-items: center;
     justify-content: center;
     gap: 1.7rem;
+    margin-bottom: 1.5rem;
 }
 .course_card{
     width: 380px;
@@ -490,7 +491,23 @@ li{
     color: var(--fourth);
     margin-bottom: 1.4rem;
 }
-
+.load_more{
+    width: 200px;
+    height: 43px;
+    background: var(--secondary);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary);
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid var(--secondary);
+}
+.load_more:hover{
+    background: var(--secondary);
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid var(--secondary);
+}
 
 
 
