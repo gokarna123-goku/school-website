@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Hospital Website">
+    <meta property="og:image" content="./img/hospital-bg.jpg">
+    <meta property="og:url" content="#">
+    <!-- Font Awesome Cdn link -->
+    <script src="https://kit.fontawesome.com/676eaf438a.js" crossorigin="anonymous"></script>
+    <!-- JQuery Cdn link -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- AOS Animation css Cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./style.css">
+    <title>School Website</title>
+</head>
+
+<body>
+
+    <!-- Main Section -->
+    <!-- Navbar & Hero Background Image Section -->
+    <div class="bg_image_section">
+        <!-- Navbar Section -->
+        <nav class="nav_section">
+            <a href="#" class="logo_link">Hospital</a>
+            <ul>
+                <li><a href="#" class="nav_link active">Home</a></li>
+                <li><a href="#service" class="nav_link">Services</a></li>
+                <li><a href="#aboutus" class="nav_link">About Us</a></li>
+                <li><a href="#doctors" class="nav_link">Doctors</a></li>
+                <li><a href="#department" class="nav_link">Departments</a></li>
+                <li><a href="#blog" class="nav_link">Blog</a></li>
+                <li><a href="#contact" class="nav_link">Contact Us</a></li>
+            </ul>
+            <div id="toggleIcon">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="hero_section">
+            <div class="text_section">
+                We will help you, <br> <span>To Become Healthy</span>
+            </div>
+            <div class="btn_group">
+                <button class="btn bg_btn">Check Up</button>
+                <button class="btn border_btn">Book Appoinment</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Section -->
+    <div class="about_section" id="aboutus">
+        <div class="image_section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <img src="./img/about-img.jpg" alt="About us Image" class="about_img">
+        </div>
+        <div class="content_section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <div class="tag_section">
+                <h6 class="tag_title">About Us</h6>
+                <div class="tag_indicator">
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <h6 class="about_title">
+                We are Achieve the Success of Treatment
+            </h6>
+            <p class="about_desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed eaque ratione quas hic
+                accusantium earum itaque nemo officia aperiam tenetur labore, recusandae in, similique, ad doloribus
+                consectetur rerum temporibus! Eveniet quibusdam, tempore sunt reprehenderit dicta earum explicabo
+                maiores! Quisquam.
+            </p>
+            <button class="btn about_btn bg_btn">
+                Know more <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Divider -->
+    <hr class="divider">
+
+    <!-- Custom JavaScript link -->
+    <script src="./main.js"></script>
+
+    <!-- AOS JavaScript Cdn link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS Animation JavaScript Initialized -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
