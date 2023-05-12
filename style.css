@@ -616,11 +616,37 @@ li{
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.input_group input{
+    width: 49%;
+    height: 58px;
+    padding: 0 10px;
+    background: transparent;
+    border: 1px solid var(--fourth);
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+.msg_box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.4rem;
+}
+.msg_box textarea{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid var(--fourth);
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
 }
 
 .submit_btn{
-    width: 280px;
-    height: 58px;
+    width: 200px;
+    height: 45px;
     background: var(--secondary);
     border: 2px solid var(--secondary);
     color: var(--tertiary);
