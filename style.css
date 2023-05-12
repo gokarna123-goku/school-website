@@ -514,7 +514,7 @@ li{
     width: 100%;
     height: auto;
     padding: 100px;
-    background: rgba(0, 0, 0, 0.02);
+    background: rgba(0, 0, 0, 0.08);
     display: flex;
     align-items: center;
     flex-direction: column;
