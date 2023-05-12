@@ -337,6 +337,98 @@ li{
     cursor: pointer;
 }
 
+/* About Us Section */
+.about_section{
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.about_img_section{
+    width: 49%;
+    height: 65vh;
+}
+.about_img_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.about_data_section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+}
+.about_intro{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--secondary);
+    letter-spacing: 0.05rem;
+    margin-bottom: 1.2rem;
+}
+.about_title{
+    font-size: 2.7rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: var(--primary);
+    margin-bottom: 1.2rem;
+}
+.about_desc{
+    font-size: 0.98rem;
+    color: var(--fourth);
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.campus_data_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.campus_data_section .data{
+    width: auto;
+    height: auto;
+    padding: 10px 30px;
+    background: rgba(226, 72, 6, 0.2);
+    border-radius: 4px;
+}
+.campus_data_section .data_count{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+.campus_data_section .data_title{
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+.know_more_btn{
+    width: 200px;
+    height: 45px;
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--tertiary);
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    border-radius: 4px;
+    transition: 0.5s ease-out;
+}
+.know_more_btn:hover{
+    background: transparent;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
 
 
 /* Divider Section */
